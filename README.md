@@ -9,3 +9,9 @@ By default, the extension uses the `opening-huffman` algorithm, which is the mos
 2) `dynamic-huffman` - A Huffman encoding algorithm that uses the huffman-encoding crate to compress the PGN data, but with a huffman tree that is updated dynamically as the data is compressed.
 3) `huffman` - A Huffman encoding algorithm that uses a huffman-encoding crate to compress the PGN data.
 4) `bincode` - A simple binary encoding algorithm that uses the bincode crate to serialize the PGN data into a binary format.
+
+## Installation
+1) Open your browser and navigate to "chrome://extensions/" (assuming you are using Chrome).
+2) Enable "Developer mode" in the top right corner.
+3) Click "Load unpacked" and select this /cgn-cli directory
+4) The extension should now be installed and ready to use.
